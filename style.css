@@ -7,7 +7,7 @@ body{
     margin:0;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }    
 .container{
     position: absolute;
@@ -18,18 +18,24 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 .leftside{
     width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 h1{
     color:royalblue;
     font-size:80px;
 }
-h3{
-    color:black;
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 30px;
+h2{
+    color: black;
+    font-family: sans-serif;
+    font-size: 28px;
+    padding: 0px 0px 20px;
 }
 .rightside{
     width:50%;
@@ -47,6 +53,7 @@ h3{
     box-shadow: -10px -10px 15px rgba(0,0,0,0.1),
     10px 10px 15px rgba(0,0,0,0.1);
     border-radius: 10px;
+    margin-left: 20px;
 }
 form{
     display:flex;
@@ -68,10 +75,6 @@ input{
 input[type="submit"]{
     background-color: royalblue;
     color:white;
-    /*https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzE3MjY2MDUxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D*/
-    value:hover{
-        color:rgb(40, 137, 197);
-    }      
 }
 p{
     color:royalblue;
@@ -94,11 +97,7 @@ hr{
     font-weight: 30px;
     color:white;
     border-radius: 10px;
-    /*https://www.facebook.com/#*/
-    div:hover{
-    color:green;
-}
-
+    
 }
 span{
     margin:20px 0px;
