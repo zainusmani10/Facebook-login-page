@@ -19,21 +19,22 @@ body{
 
 }
 .leftside{
-    width: 45%;
+    width: 500px;
     padding-right: 20px;
     
 }
 h1{
     color:royalblue;
     font-size:80px;
-    width: 250px;
-    margin-left: 20px;
+    width: 235px;
+    margin-left: 5px;
     margin-top: 20px;
+    margin-bottom: -10px;
     font-family: "Segoe UI", Roboto, "San Francisco";
 }
 h2{
     color: #1c1e21;
-    font-size: 28px;
+    font-size: 26px;
     padding: 0px 0px 20px;
     word-spacing:3px;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
