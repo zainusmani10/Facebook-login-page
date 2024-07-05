@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color:#F0F2F5;
+    flex-direction: column;
 }    
 .container{
     display: flex;
@@ -82,7 +83,7 @@ input[type="submit"]{
     color:white;
 }
 p{
-    color:royalblue;
+    color:blue;
     
 }
 hr{
@@ -111,12 +112,18 @@ span{
     margin-top: 20px;
     display:inline-block;
 }
+.create-page-link{
+    color:black;
+    font-weight: bold;
+}
+
 .footer {
     margin-top:auto;
     text-align: center;
     font-size: 12px;
-    background-color:#f0f0f0;
-    padding:10px;
+    background-color:white;
+    padding:20px;
+    box-sizing: border-box;
     width:100%;
     display:flex;
     align-items: baseline;
